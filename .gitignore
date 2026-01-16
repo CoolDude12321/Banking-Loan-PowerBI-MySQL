@@ -1,0 +1,44 @@
+# =========================
+# OS / System files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Power BI temporary & cache files
+# =========================
+*.pbi
+*.pbix.tmp
+*.pbix.autosave
+
+# Power BI local cache (sometimes created)
+**/.pbi/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# SQL temp / backup files
+# =========================
+*.bak
+*.tmp
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Python / Notebook (if used later)
+# =========================
+__pycache__/
+.ipynb_checkpoints/
+
+# =========================
+# Environment files
+# =========================
+.env
